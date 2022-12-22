@@ -1,0 +1,7 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="project1.controller.Map" displayBlock="true">
+    <Page id="page" title="{i18n>title}">
+        <content>
+            <sap.ui.vbm:GeoMap xmlns:sap.ui.vbm="sap.ui.vbm" id="geoMap"/>
+        </content>
+    </Page>
+</mvc:View>
